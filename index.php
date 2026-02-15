@@ -326,72 +326,18 @@
         <div class="row g-5">
             <div class="col-lg-6 col-md-6 col-12">
                 <div
-                    class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
-                    <div class="portfoli-card-img">
-                        <div class="img-box v2">
-                            <a href="project-details.html">
-                                <img class="img-secondary" src="assets/images/portfolio/image.png" alt="BLog Thumbnail">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-card-content-wrap">
-                        <div class="content-left">
-                            <h3 class="portfolio-card-title"><a href="project-details.html">Wedding Hair Style</a>
-                            </h3>
-                            <div class="tag-items">
-                                <ul>
-                                    <li>
-                                        <a href="#" class="tag-item">Wedding</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tag-item">Style</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="tmp-button-here">
-                            <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
-                                href="project-details.html">
-                                <span class="icon-reverse-wrapper">
-                                    <span class="btn-text">View Details</span>
-                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
-                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
-                                </span>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-12">
-                <div
                     class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
                             <a href="project-details.html">
-                                <img class="img-primary hidden-on-mobile" src="assets/images/portfolio/02.webp"
-                                    alt="Blog Thumbnail">
-                                <img class="img-secondary" src="assets/images/portfolio/02.webp" alt="BLog Thumbnail">
+                                <img src="assets/images/portfolio/torshaapharama.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
                     <div class="portfolio-card-content-wrap">
                         <div class="content-left">
-                            <h3 class="portfolio-card-title"><a href="project-details.html">Brand Promoting</a>
+                            <h3 class="portfolio-card-title"><a href="project-details.html">Torshaa Pharama</a>
                             </h3>
-                            <div class="tag-items">
-                                <ul>
-                                    <li>
-                                        <a href="#" class="tag-item">Brand</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tag-item">Promot</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tag-item">Model</a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="tmp-button-here">
                             <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
@@ -412,29 +358,14 @@
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
                             <a href="project-details.html">
-                                <img class="img-primary hidden-on-mobile" src="assets/images/portfolio/03.webp"
-                                    alt="Blog Thumbnail">
-                                <img class="img-secondary" src="assets/images/portfolio/03.webp" alt="BLog Thumbnail">
+                                <img src="assets/images/portfolio/karantelcom.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
                     <div class="portfolio-card-content-wrap">
                         <div class="content-left">
-                            <h3 class="portfolio-card-title"><a href="project-details.html">Product Marketing</a>
+                            <h3 class="portfolio-card-title"><a href="project-details.html">Karan Telcom</a>
                             </h3>
-                            <div class="tag-items">
-                                <ul>
-                                    <li>
-                                        <a href="#" class="tag-item">Shirt</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tag-item">Brand</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tag-item">Sell</a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="tmp-button-here">
                             <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
@@ -451,31 +382,49 @@
             </div>
             <div class="col-lg-6 col-md-6 col-12">
                 <div
-                    class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-4">
+                    class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
                             <a href="project-details.html">
-                                <img class="img-primary hidden-on-mobile" src="assets/images/portfolio/04.webp"
-                                    alt="Blog Thumbnail">
-                                <img class="img-secondary col-md-6" src="assets/images/portfolio/04.webp"
-                                    alt="BLog Thumbnail">
+                                <img src="assets/images/portfolio/technofra.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
                     <div class="portfolio-card-content-wrap">
                         <div class="content-left">
-                            <h3 class="portfolio-card-title"><a href="project-details.html">Dashboard design</a>
+                            <h3 class="portfolio-card-title"><a href="project-details.html">Technofra</a>
                             </h3>
-                            <div class="tag-items">
-                                <ul>
-                                    <li>
-                                        <a href="#" class="tag-item">Adobe</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tag-item">Webflow</a>
-                                    </li>
-                                </ul>
-                            </div>
+                        </div>
+                        <div class="tmp-button-here">
+                            <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                href="project-details.html">
+                                <span class="icon-reverse-wrapper">
+                                    <span class="btn-text">View Details</span>
+                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- video frame  -->
+            <div class="col-lg-6 col-md-6 col-12">
+                <div
+                    class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-4">
+                    <div class="portfoli-card-img">
+                        <div class="img-box v2">
+                            <a href="project-details.html">
+                                <video width="100%" height="100%" controls>
+                                    <source src="assets/images/video/showreels.mp4" type="video/mp4">
+                                </video>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-card-content-wrap">
+                        <div class="content-left">
+                            <h3 class="portfolio-card-title"><a href="project-details.html">Concept Co</a>
+                            </h3>
                         </div>
                         <div class="tmp-button-here">
                             <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
