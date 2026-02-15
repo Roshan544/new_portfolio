@@ -35,14 +35,14 @@
                     class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1">
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
-                            <a href="project-details.html">
+                            <a href="project/project-details.php">
                                 <img src="assets/images/portfolio/torshaapharama.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
                     <div class="portfolio-card-content-wrap">
                         <div class="content-left">
-                            <h3 class="portfolio-card-title"><a href="project-details.html">Torshaa Pharama</a></h3>
+                            <h3 class="portfolio-card-title"><a href="project/project-details.php">Torshaa Pharama</a></h3>
                             <p class="portfoli-card-para">Development Coaches</p>
                         </div>
                     </div>
@@ -53,14 +53,14 @@
                     class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
-                            <a href="project-details.html">
+                            <a href="project/project-details.php">
                                 <img src="assets/images/portfolio/karantelcom.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
                     <div class="portfolio-card-content-wrap">
                         <div class="content-left">
-                            <h3 class="portfolio-card-title"><a href="project-details.html">Karan Telecom</a></h3>
+                            <h3 class="portfolio-card-title"><a href="project/project-details.php">Karan Telecom</a></h3>
                             <p class="portfoli-card-para">Development Coaches</p>
                         </div>
                     </div>
@@ -71,14 +71,14 @@
                     class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3">
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
-                            <a href="project-details.html">
+                            <a href="project/project-details.php">
                                 <img src="assets/images/portfolio/technofra.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
                     <div class="portfolio-card-content-wrap">
                         <div class="content-left">
-                            <h3 class="portfolio-card-title"><a href="project-details.html">Technofra</a></h3>
+                            <h3 class="portfolio-card-title"><a href="project/project-details.php">Technofra</a></h3>
                             <p class="portfoli-card-para">Development Coaches</p>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                     class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-4">
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
-                            <a href="project-details.html">
+                            <a href="project/project-details.php">
                                 <video width="100%" height="100%" autoplay muted loop playsinline>
                                     <source src="assets/images/video/showreels.mp4" type="video/mp4">
                                 </video>
@@ -98,7 +98,7 @@
                     </div>
                     <div class="portfolio-card-content-wrap">
                         <div class="content-left">
-                            <h3 class="portfolio-card-title"><a href="project-details.html">Concept Co</a></h3>
+                            <h3 class="portfolio-card-title"><a href="project/project-details.php">Concept Co</a></h3>
                             <p class="portfoli-card-para">Development Coaches</p>
                         </div>
                     </div>

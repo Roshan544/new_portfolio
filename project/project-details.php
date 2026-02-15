@@ -1,4 +1,4 @@
-<?php include 'layout/header.php'; ?>
+<?php include '../layout/header.php'; ?>
 
 <style>
     .tmp-section-gap {
@@ -108,7 +108,7 @@
                                         <div class="contact-inner">
                                             <div class="contact-form">
                                                 <form class="tmp-dynamic-form" id="contact-form" method="POST"
-                                                    action="https://inversweb.com/product/html/reeni/mail.php">
+                                                    action="send.php">
                                                     <div class="contact-form-wrapper row">
                                                         <div class="col-lg-6">
                                                             <div class="form-group">
@@ -191,4 +191,4 @@
     </div>
 </div>
 
-<?php include 'layout/footer.php'; ?>
+<?php include '../layout/footer.php'; ?>

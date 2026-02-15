@@ -22,10 +22,11 @@
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
-<body>
+<body> 
 
     <!-- Loading Screen -->
     <!-- <div id="loading-screen">
@@ -41,10 +42,12 @@
                         <div class="logo d-flex justify-content-center align-items-center">
                             <a href="index.php">
                                 <img class="logo-dark" src="assets/images/my_img/RY_logo.png" style="width: 50px;"
-                                    alt="Roshan Yadav - Personal Portfolio | Freelancer & Developer Portfolio">
+                                    alt="Roshan Yadav">
                             </a>
-                            <a href="index.php"><h2 class="d-flex align-items-center justify-content-center"
-                                style="font-size: 18px; margin: 10px 10px;">Roshan Yadav</h2></a>
+                            <a href="index.php">
+                                <h2 class="d-flex align-items-center justify-content-center"
+                                    style="font-size: 18px; margin: 10px 10px;">Roshan Yadav</h2>
+                            </a>
                         </div>
                         <nav class="tmp-mainmenu-nav d-none d-xl-block">
                             <ul class="tmp-mainmenu">
@@ -103,8 +106,10 @@
                             <img class="logo-dark" src="assets/images/my_img/RY_logo.png" style="width: 50px;"
                                 alt="Roshan Yadav - Personal Portfolio | Freelancer & Developer Portfolio">
                         </a>
-                        <a href="index.php"><h2 class="d-flex align-items-center justify-content-center"
-                            style="font-size: 18px; margin: 10px 10px;">Roshan Yadav</h2></a>
+                        <a href="index.php">
+                            <h2 class="d-flex align-items-center justify-content-center"
+                                style="font-size: 18px; margin: 10px 10px;">Roshan Yadav</h2>
+                        </a>
                     </div>
                     <div class="close-icon-area">
                         <button class="tmp-round-action-btn close_side_menu_active">
@@ -152,10 +157,13 @@
                     <div class="social-wrapper mt--20">
                         <span class="subtitle">find with me</span>
                         <div class="social-link">
-                            <a href="https://www.instagram.com/roshan._.0707_"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/roshan._.0707_"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
                             <a href="https://github.com/Roshan544"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://www.facebook.com/profile.php?id=100014189131444"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100014189131444"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
                         </div>
                     </div>
                     <!-- social area end -->
@@ -169,14 +177,15 @@
         <div class="tmp-popup-mobile-menu">
             <div class="inner">
                 <div class="header-top">
-                    <div class="logo">
-                        <a href="index.php" class="logo-area">
-                            <img class="logo-dark" src="assets/images/logo/white-logo-reeni.png"
-                                alt="Reeni - Personal Portfolio HTML Template for developers and freelancers">
-                            <img class="logo-white" src="assets/images/logo/logo-white.png"
-                                alt="Reeni - Personal Portfolio HTML Template for developers and freelancers">
+                    <div class="d-flex">
+                        <a href="index.php">
+                            <img class="logo-dark" src="assets/images/my_img/RY_logo.png" style="width: 50px;"
+                                alt="Roshan Yadav - Personal Portfolio | Freelancer & Developer Portfolio">
                         </a>
-
+                        <a href="index.php">
+                            <h2 class="d-flex align-items-center justify-content-center"
+                                style="font-size: 18px; margin: 10px 10px;">Roshan Yadav</h2>
+                        </a>
                     </div>
                     <div class="close-menu">
                         <button class="close-button tmp-round-action-btn">
@@ -214,9 +223,11 @@
                     <span class="subtitle">find with me</span>
                     <div class="social-link">
                         <a href="https://www.instagram.com/roshan._.0707_"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://github.com/Roshan544"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://www.facebook.com/profile.php?id=100014189131444"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Roshan544"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100014189131444"><i
+                                class="fa-brands fa-facebook-f"></i></a>
                     </div>
                 </div>
                 <!-- social area end -->

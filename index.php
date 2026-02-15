@@ -160,73 +160,73 @@
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-1">
                     <img src="assets\images\language\html.svg" style="width:80px;"
-                        alt="Reeni - Personal Portfolio HTML Template">
+                        alt="Html">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-2">
                     <img src="assets\images\language\css.svg" style="width:80px;"
-                        alt="Reeni - Personal Portfolio HTML Template">
+                        alt="CSS">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-3">
                     <img src="assets\images\language\js.svg" style="width:80px;"
-                        alt="Reeni - Personal Portfolio HTML Template">
+                        alt="JavaScript">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-4">
                     <img src="assets\images\language\react.svg" style="width:80px;"
-                        alt="Reeni - Personal Portfolio HTML Template">
+                        alt="React">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-5">
                     <img src="assets\images\language\bootstrap.svg" style="width:80px;"
-                        alt="Reeni - Personal Portfolio HTML Template">
+                        alt="Bootstrap">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-6">
                     <img src="assets\images\language\php.svg" style="width:80px;"
-                        alt="Reeni - Personal Portfolio HTML Template">
+                        alt="PHP">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-7">
                     <img src="assets\images\language\laravel.svg" style="width:80px;"
-                        alt="Reeni - Personal Portfolio HTML Template">
+                        alt="Laravel">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
                     <img src="assets\images\language\mysql.png" style="width:80px;"
-                        alt="Reeni - Personal Portfolio HTML Template">
+                        alt="MySQL">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
                     <img src="assets\images\language\figma.svg" style="width:70px;"
-                        alt="Reeni - Personal Portfolio HTML Template">
+                        alt="Figma">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
                     <img src="assets\images\language\git.svg" style="width:80px;"
-                        alt="Reeni - Personal Portfolio HTML Template">
+                        alt="Git">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
                     <img src="assets\images\language\github.svg" style="width:80px;"
-                        alt="Reeni - Personal Portfolio HTML Template">
+                        alt="GitHub">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
                     <img src="assets\images\language\framer.svg" style="width:80px;"
-                        alt="Reeni - Personal Portfolio HTML Template">
+                        alt="Framer">
                 </div>
             </div>
         </div>
@@ -587,7 +587,7 @@
                         <div class="contact-form">
                             <div id="form-messages" class="error"></div>
                             <form class="tmp-dynamic-form" id="contact-form" method="POST"
-                                action="https://inversweb.com/product/html/reeni/mailer.php">
+                                action="send.php">
                                 <div class="contact-form-wrapper row">
                                     <div class="col-lg-6">
                                         <div class="form-group">

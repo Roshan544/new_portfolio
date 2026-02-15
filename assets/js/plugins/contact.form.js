@@ -2,9 +2,9 @@
  *
  * -----------------------------------------------------------------------------
  *
- * Template : Reeni Personal Portfolio HTML Template
- * Author : themes-park
- * Author URI : https://themes-park.com/ 
+ * Template : Roshan Yadav - Personal Portfolio | Freelancer & Developer Portfolio
+ * Author : Roshan Yadav
+ * Author URI :  
  *
  * -----------------------------------------------------------------------------
  *

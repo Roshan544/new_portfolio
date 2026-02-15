@@ -5,7 +5,7 @@
                     <button class="demo-close-btn"><span><i class="fa-sharp fa-light fa-xmark"></i></span></button>
                 </div>
                 <div class="demo-top text-center">
-                    <h4 class="title">Reeni</h4>
+                    <h4 class="title">Roshan Yadav</h4>
                     <p class="subtitle">A personal portfolio website is your digital resume—a place to showcase your work,
                         skills, and achievements.</p>
                 </div>
