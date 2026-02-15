@@ -9,7 +9,7 @@
                 <div class="col-lg-6 order-lg-2">
                     <div class="banner-right-content d-flex align-items-center justify-content-center">
                         <img class="tmp-scroll-trigger tmp-zoom-in animation-order-1" style="height: 85dvh;"
-                            src="assets/images/banner/Roshan_Yadav_profile.png" alt="banner-img">
+                            src="<?php echo $base_path; ?>assets/images/banner/Roshan_Yadav_profile.png" alt="banner-img">
                         <h2 class="banner-big-text-1 up-down">WEB DEVELOPER</h2>
                         <h2 class="banner-big-text-2 up-down-2">WEB DEVELOPER</h2>
                     </div>
@@ -159,73 +159,73 @@
         <div class="row justify-content-center">
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-1">
-                    <img src="assets\images\language\html.svg" style="width:80px;"
+                    <img src="<?php echo $base_path; ?>assets\images\language\html.svg" style="width:80px;"
                         alt="Html">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-2">
-                    <img src="assets\images\language\css.svg" style="width:80px;"
+                    <img src="<?php echo $base_path; ?>assets\images\language\css.svg" style="width:80px;"
                         alt="CSS">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-3">
-                    <img src="assets\images\language\js.svg" style="width:80px;"
+                    <img src="<?php echo $base_path; ?>assets\images\language\js.svg" style="width:80px;"
                         alt="JavaScript">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-4">
-                    <img src="assets\images\language\react.svg" style="width:80px;"
+                    <img src="<?php echo $base_path; ?>assets\images\language\react.svg" style="width:80px;"
                         alt="React">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-5">
-                    <img src="assets\images\language\bootstrap.svg" style="width:80px;"
+                    <img src="<?php echo $base_path; ?>assets\images\language\bootstrap.svg" style="width:80px;"
                         alt="Bootstrap">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-6">
-                    <img src="assets\images\language\php.svg" style="width:80px;"
+                    <img src="<?php echo $base_path; ?>assets\images\language\php.svg" style="width:80px;"
                         alt="PHP">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-7">
-                    <img src="assets\images\language\laravel.svg" style="width:80px;"
+                    <img src="<?php echo $base_path; ?>assets\images\language\laravel.svg" style="width:80px;"
                         alt="Laravel">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
-                    <img src="assets\images\language\mysql.png" style="width:80px;"
+                    <img src="<?php echo $base_path; ?>assets\images\language\mysql.png" style="width:80px;"
                         alt="MySQL">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
-                    <img src="assets\images\language\figma.svg" style="width:70px;"
+                    <img src="<?php echo $base_path; ?>assets\images\language\figma.svg" style="width:70px;"
                         alt="Figma">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
-                    <img src="assets\images\language\git.svg" style="width:80px;"
+                    <img src="<?php echo $base_path; ?>assets\images\language\git.svg" style="width:80px;"
                         alt="Git">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
-                    <img src="assets\images\language\github.svg" style="width:80px;"
+                    <img src="<?php echo $base_path; ?>assets\images\language\github.svg" style="width:80px;"
                         alt="GitHub">
                 </div>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
                 <div class="support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-8">
-                    <img src="assets\images\language\framer.svg" style="width:80px;"
+                    <img src="<?php echo $base_path; ?>assets\images\language\framer.svg" style="width:80px;"
                         alt="Framer">
                 </div>
             </div>
@@ -246,7 +246,7 @@
             </h2>
         </div>
         <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">Experience <span><img
-                    src="assets/images/custom-line/custom-line.png" alt="custom-line"></span>
+                    src="<?php echo $base_path; ?>assets/images/custom-line/custom-line.png" alt="custom-line"></span>
         </h2>
         <div class="row g-5">
             <div class="col-lg-6 col-sm-6">
@@ -273,7 +273,7 @@
                 <div class="col-lg-6">
                     <div class="experiences-wrap-left-content">
                         <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">Education
-                            <span><img src="assets/images/custom-line/custom-line.png" alt="custom-line"></span>
+                            <span><img src="<?php echo $base_path; ?>assets/images/custom-line/custom-line.png" alt="custom-line"></span>
                         </h2>
 
                         <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
@@ -296,7 +296,7 @@
                 <div class="col-lg-6">
                     <div class="experiences-wrap-right-content">
                         <img class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
-                            src="assets/images/banner/2_1.jpeg" alt="expert-img">
+                            src="<?php echo $base_path; ?>assets/images/banner/2_1.jpeg" alt="expert-img">
                     </div>
                 </div>
             </div>
@@ -330,7 +330,7 @@
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
                             <a href="project-details.php">
-                                <img src="assets/images/portfolio/torshaapharama.png" alt="Blog Thumbnail">
+                                <img src="<?php echo $base_path; ?>assets/images/portfolio/torshaapharama.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
@@ -358,7 +358,7 @@
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
                             <a href="project-details.php">
-                                <img src="assets/images/portfolio/karantelcom.png" alt="Blog Thumbnail">
+                                <img src="<?php echo $base_path; ?>assets/images/portfolio/karantelcom.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
@@ -386,7 +386,7 @@
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
                             <a href="project-details.php">
-                                <img src="assets/images/portfolio/technofra.png" alt="Blog Thumbnail">
+                                <img src="<?php echo $base_path; ?>assets/images/portfolio/technofra.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
@@ -416,7 +416,7 @@
                         <div class="img-box v2">
                             <a href="project-details.php">
                                 <video width="100%" height="100%" autoplay muted loop playsinline>
-                                    <source src="assets/images/video/showreels.mp4" type="video/mp4">
+                                    <source src="<?php echo $base_path; ?>assets/images/video/showreels.mp4" type="video/mp4">
                                 </video>
                             </a>
                         </div>
@@ -474,7 +474,7 @@
                                 <div class="testimonial-card tmponhover style-2 tmp-scroll-trigger animation-order-1">
                                     <div class="content">
                                         <div class="testimonital-icon">
-                                            <img src="assets/images/icons/quote.svg" alt="testimonial-icon">
+                                            <img src="<?php echo $base_path; ?>assets/images/icons/quote.svg" alt="testimonial-icon">
                                         </div>
                                         <h2 class="text-doc">A personal portfolio is a curated collection of an
                                             individual's professional work, showcasing their skilA personal portfolio is
@@ -489,7 +489,7 @@
                                 <div class="testimonial-card tmponhover style-2 tmp-scroll-trigger animation-order-2">
                                     <div class="content">
                                         <div class="testimonital-icon">
-                                            <img src="assets/images/icons/quote.svg" alt="testimonial-icon">
+                                            <img src="<?php echo $base_path; ?>assets/images/icons/quote.svg" alt="testimonial-icon">
                                         </div>
                                         <h2 class="text-doc">A personal portfolio is a curated collection of an
                                             individual's professional work, showcasing their skilA personal portfolio is
@@ -504,7 +504,7 @@
                                 <div class="testimonial-card tmponhover style-2 tmp-scroll-trigger animation-order-1">
                                     <div class="content">
                                         <div class="testimonital-icon">
-                                            <img src="assets/images/icons/quote.svg" alt="testimonial-icon">
+                                            <img src="<?php echo $base_path; ?>assets/images/icons/quote.svg" alt="testimonial-icon">
                                         </div>
                                         <h2 class="text-doc">A personal portfolio is a curated collection of an
                                             individual's professional work, showcasing their skilA personal portfolio is
@@ -519,7 +519,7 @@
                                 <div class="testimonial-card tmponhover style-2 tmp-scroll-trigger animation-order-2">
                                     <div class="content">
                                         <div class="testimonital-icon">
-                                            <img src="assets/images/icons/quote.svg" alt="testimonial-icon">
+                                            <img src="<?php echo $base_path; ?>assets/images/icons/quote.svg" alt="testimonial-icon">
                                         </div>
                                         <h2 class="text-doc">A personal portfolio is a curated collection of an
                                             individual's professional work, showcasing their skilA personal portfolio is

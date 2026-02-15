@@ -59,9 +59,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&amp;display=swap");
 :root {
-  --color-primary: #FF014F;
-  --color-primary-alt: #ff014dd9;
-  --color-primary-2nd: #FF494A;
+  /* --color-primary: #FF014F; */
+  --color-primary: #B38E61;
+  /* --color-primary-alt: #ff014dd9; */
+  --color-primary-alt: #B38E61d9;
+  /* --color-primary-2nd: #FF494A; */
   --color-primary-3rd: #FDC448;
   --color-primary-4th: #0071ff;
   --color-secondary: #060606;
@@ -25794,7 +25796,6 @@ body.tmp-white-version.index-8 .tmp-contact-about-inner .info-box {
   display: none;
 }
 
-/*----Template Style----*/
 .project-details-thumnail-wrap img {
   border-radius: 20px;
 }

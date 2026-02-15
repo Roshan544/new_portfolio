@@ -1,3 +1,6 @@
+<?php 
+$base_path = '/Portfolio/';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Discover a passionate Web Developer with expertise in front-end and back-end technologies. Skilled in creating responsive websites and eager to innovate.">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/my_img/RY_logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $base_path; ?>assets/images/my_img/RY_logo.png">
     <title>Roshan Yadav - Personal Portfolio | Freelancer & Developer Portfolio</title>
     <meta name="keywords"
         content="Roshan Yadav, Web Developer, Freelancer, Portfolio, Front-end Development, Back-end Development, Responsive Design, Web Solutions, Innovative Web Developer">
@@ -15,22 +18,22 @@
     <meta name="author" content="Roshan Yadav">
     <meta name="robots" content="index, follow">
     <!-- Bootstrap min css -->
-    <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/plugins/swiper.css">
-    <link rel="stylesheet" href="assets/css/plugins/odometer.css">
-    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/vendor/fontawesome.css">
+    <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/plugins/swiper.css">
+    <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/plugins/odometer.css">
+    <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/vendor/bootstrap.min.css">
     <!-- custom css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/custom.css">
 </head>
 
 <body> 
 
     <!-- Loading Screen -->
     <!-- <div id="loading-screen">
-        <img src="assets/images/my_img/RY_logo.png" alt="Logo" class="loading-logo">
+        <img src="<?php echo $base_path; ?>assets/images/my_img/RY_logo.png" alt="Logo" class="loading-logo">
     </div> -->
 
     <!-- tpm-header-area start -->
@@ -40,11 +43,11 @@
                 <div class="col-lg-12">
                     <div class="header-content">
                         <div class="logo d-flex justify-content-center align-items-center">
-                            <a href="index.php">
-                                <img class="logo-dark" src="assets/images/my_img/RY_logo.png" style="width: 50px;"
+                            <a href="<?php echo $base_path; ?>index.php">
+                                <img class="logo-dark" src="<?php echo $base_path; ?>assets/images/my_img/RY_logo.png" style="width: 50px;"
                                     alt="Roshan Yadav">
                             </a>
-                            <a href="index.php">
+                            <a href="<?php echo $base_path; ?>index.php">
                                 <h2 class="d-flex align-items-center justify-content-center"
                                     style="font-size: 18px; margin: 10px 10px;">Roshan Yadav</h2>
                             </a>
@@ -52,17 +55,17 @@
                         <nav class="tmp-mainmenu-nav d-none d-xl-block">
                             <ul class="tmp-mainmenu">
                                 <li>
-                                    <a href="index.php">Home
+                                    <a href="<?php echo $base_path; ?>index.php">Home
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="about.php">About</a>
+                                    <a href="<?php echo $base_path; ?>about.php">About</a>
                                 </li>
                                 <li>
-                                    <a href="project.php">Project</a>
+                                    <a href="<?php echo $base_path; ?>project.php">Project</a>
                                 </li>
                                 <li>
-                                    <a href="contact.php">Contact</a>
+                                    <a href="<?php echo $base_path; ?>contact.php">Contact</a>
                                 </li>
                             </ul>
 
@@ -103,7 +106,7 @@
                 <div class="top-area">
                     <div class="d-flex">
                         <a href="index.php">
-                            <img class="logo-dark" src="assets/images/my_img/RY_logo.png" style="width: 50px;"
+                            <img class="logo-dark" src="<?php echo $base_path; ?>assets/images/my_img/RY_logo.png" style="width: 50px;"
                                 alt="Roshan Yadav - Personal Portfolio | Freelancer & Developer Portfolio">
                         </a>
                         <a href="index.php">
@@ -179,7 +182,7 @@
                 <div class="header-top">
                     <div class="d-flex">
                         <a href="index.php">
-                            <img class="logo-dark" src="assets/images/my_img/RY_logo.png" style="width: 50px;"
+                            <img class="logo-dark" src="<?php echo $base_path; ?>assets/images/my_img/RY_logo.png" style="width: 50px;"
                                 alt="Roshan Yadav - Personal Portfolio | Freelancer & Developer Portfolio">
                         </a>
                         <a href="index.php">

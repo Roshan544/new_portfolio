@@ -36,7 +36,7 @@
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
                             <a href="project/project-details.php">
-                                <img src="assets/images/portfolio/torshaapharama.png" alt="Blog Thumbnail">
+                                <img src="<?php echo $base_path; ?>assets/images/portfolio/torshaapharama.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
                             <a href="project/project-details.php">
-                                <img src="assets/images/portfolio/karantelcom.png" alt="Blog Thumbnail">
+                                <img src="<?php echo $base_path; ?>assets/images/portfolio/karantelcom.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
                             <a href="project/project-details.php">
-                                <img src="assets/images/portfolio/technofra.png" alt="Blog Thumbnail">
+                                <img src="<?php echo $base_path; ?>assets/images/portfolio/technofra.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                         <div class="img-box v2">
                             <a href="project/project-details.php">
                                 <video width="100%" height="100%" autoplay muted loop playsinline>
-                                    <source src="assets/images/video/showreels.mp4" type="video/mp4">
+                                    <source src="<?php echo $base_path; ?>assets/images/video/showreels.mp4" type="video/mp4">
                                 </video>
                             </a>
                         </div>

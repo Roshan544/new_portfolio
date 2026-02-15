@@ -1,4 +1,5 @@
 <?php include '../layout/header.php'; ?>
+<?php $base_path = '/Portfolio/'; ?>
 
 <style>
     .tmp-section-gap {
@@ -32,7 +33,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="project-details-thumnail-wrap">
-                    <img src="assets/images/projects-details/thumnail-img.png" alt="thumbnail">
+                    <img src="<?php echo $base_path; ?>assets/images/projects-details/thumnail-img.png" alt="thumbnail">
                 </div>
             </div>
             <div class="col-lg-8">
@@ -72,19 +73,19 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="project-details-img">
-                                        <img src="assets/images/projects-details/project-detials-swiper-img-1.jpg"
+                                        <img src="<?php echo $base_path; ?>assets/images/projects-details/project-detials-swiper-img-1.jpg"
                                             alt="swiper-img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="project-details-img">
-                                        <img src="assets/images/projects-details/project-detials-swiper-img-2.png"
+                                        <img src="<?php echo $base_path; ?>assets/images/projects-details/project-detials-swiper-img-2.png"
                                             alt="swiper-img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="project-details-img">
-                                        <img src="assets/images/projects-details/project-detials-swiper-img-1.jpg"
+                                        <img src="<?php echo $base_path; ?>assets/images/projects-details/project-detials-swiper-img-1.jpg"
                                             alt="swiper-img">
                                     </div>
                                 </div>

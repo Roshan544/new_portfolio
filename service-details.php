@@ -24,7 +24,7 @@
             <div class="row row--40">
                 <div class="col-lg-8">
                     <div class="service-thumnail-wrap">
-                        <img src="assets/images/services/service-detials-thumnail-wrap.png" alt="thumnail-img">
+                        <img src="<?php echo $base_path; ?>assets/images/services/service-detials-thumnail-wrap.png" alt="thumnail-img">
                     </div>
                     <h2 class="title split-collab">Elevated Designs Personalized the best Experiences</h2>
                     <p class="doc-para">Web designing in a powerful way of just not an only professions, however, in a

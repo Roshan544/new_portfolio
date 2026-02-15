@@ -27,8 +27,8 @@
                     <div class="img-box">
                         <a href="blog-details.html">
                             <img class="img-primary hidden-on-mobile"
-                                src="assets/images/blog/blog-classic-card-img-1.jpg" alt="Blog Thumbnail">
-                            <img class="img-secondary" src="assets/images/blog/blog-classic-card-img-1.jpg"
+                                src="<?php echo $base_path; ?>assets/images/blog/blog-classic-card-img-1.jpg" alt="Blog Thumbnail">
+                            <img class="img-secondary" src="<?php echo $base_path; ?>assets/images/blog/blog-classic-card-img-1.jpg"
                                 alt="BLog Thumbnail">
                         </a>
                     </div>
@@ -78,8 +78,8 @@
                     <div class="img-box">
                         <a href="blog-details.html">
                             <img class="img-primary hidden-on-mobile"
-                                src="assets/images/blog/blog-classic-card-img-2.jpg" alt="Blog Thumbnail">
-                            <img class="img-secondary" src="assets/images/blog/blog-classic-card-img-2.jpg"
+                                src="<?php echo $base_path; ?>assets/images/blog/blog-classic-card-img-2.jpg" alt="Blog Thumbnail">
+                            <img class="img-secondary" src="<?php echo $base_path; ?>assets/images/blog/blog-classic-card-img-2.jpg"
                                 alt="BLog Thumbnail">
                         </a>
                     </div>
@@ -126,8 +126,8 @@
                     <div class="img-box">
                         <a href="blog-details.html">
                             <img class="img-primary hidden-on-mobile"
-                                src="assets/images/blog/blog-classic-card-img-3.jpg" alt="Blog Thumbnail">
-                            <img class="img-secondary" src="assets/images/blog/blog-classic-card-img-3.jpg"
+                                src="<?php echo $base_path; ?>assets/images/blog/blog-classic-card-img-3.jpg" alt="Blog Thumbnail">
+                            <img class="img-secondary" src="<?php echo $base_path; ?>assets/images/blog/blog-classic-card-img-3.jpg"
                                 alt="BLog Thumbnail">
                         </a>
                     </div>
@@ -230,7 +230,7 @@
                         <div class="body">
                             <div class="single-post-card tmp-hover-link">
                                 <div class="single-post-card-img">
-                                    <img src="assets/images/blog/single-post-card-img-1.png" alt="">
+                                    <img src="<?php echo $base_path; ?>assets/images/blog/single-post-card-img-1.png" alt="">
                                 </div>
                                 <div class="single-post-right">
                                     <div class="single-post-top">
@@ -244,7 +244,7 @@
                             </div>
                             <div class="single-post-card tmp-hover-link">
                                 <div class="single-post-card-img">
-                                    <img src="assets/images/blog/single-post-card-img-2.png" alt="">
+                                    <img src="<?php echo $base_path; ?>assets/images/blog/single-post-card-img-2.png" alt="">
                                 </div>
                                 <div class="single-post-right">
                                     <div class="single-post-top">
@@ -258,7 +258,7 @@
                             </div>
                             <div class="single-post-card tmp-hover-link">
                                 <div class="single-post-card-img">
-                                    <img src="assets/images/blog/single-post-card-img-3.png" alt="">
+                                    <img src="<?php echo $base_path; ?>assets/images/blog/single-post-card-img-3.png" alt="">
                                 </div>
                                 <div class="single-post-right">
                                     <div class="single-post-top">
@@ -280,7 +280,7 @@
                             <div class="about-me-details">
                                 <div class="about-me-details-head">
                                     <div class="about-me-img">
-                                        <img src="assets/images/blog/about-me-user-img.png" alt="about-me-user-img">
+                                        <img src="<?php echo $base_path; ?>assets/images/blog/about-me-user-img.png" alt="about-me-user-img">
                                     </div>
                                     <div class="about-me-right-content">
                                         <h3 class="title">Fatima Afrafy</h3>

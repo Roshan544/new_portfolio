@@ -134,7 +134,7 @@
             </h2>
         </div> -->
         <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">Experience <span><img
-                    src="assets/images/custom-line/custom-line.png" alt="custom-line"></span>
+                    src="<?php echo $base_path; ?>assets/images/custom-line/custom-line.png" alt="custom-line"></span>
         </h2>
         <div class="row g-5">
             <div class="col-lg-6 col-sm-6">
@@ -161,7 +161,7 @@
                 <div class="col-lg-6">
                     <div class="experiences-wrap-left-content">
                         <h2 class="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">Education
-                            <span><img src="assets/images/custom-line/custom-line.png" alt="custom-line"></span>
+                            <span><img src="<?php echo $base_path; ?>assets/images/custom-line/custom-line.png" alt="custom-line"></span>
                         </h2>
 
                         <div class="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
@@ -184,7 +184,7 @@
                 <div class="col-lg-6">
                     <div class="experiences-wrap-right-content">
                         <img class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
-                            src="assets/images/banner/2_1.jpeg" alt="expert-img">
+                            src="<?php echo $base_path; ?>assets/images/banner/2_1.jpeg" alt="expert-img">
                     </div>
                 </div>
             </div>
