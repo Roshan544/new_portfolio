@@ -329,19 +329,19 @@
                     class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
-                            <a href="project-details.html">
+                            <a href="project-details.php">
                                 <img src="assets/images/portfolio/torshaapharama.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
                     <div class="portfolio-card-content-wrap">
                         <div class="content-left">
-                            <h3 class="portfolio-card-title"><a href="project-details.html">Torshaa Pharama</a>
+                            <h3 class="portfolio-card-title"><a href="project-details.php">Torshaa Pharama</a>
                             </h3>
                         </div>
                         <div class="tmp-button-here">
                             <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
-                                href="project-details.html">
+                                href="project-details.php">
                                 <span class="icon-reverse-wrapper">
                                     <span class="btn-text">View Details</span>
                                     <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
@@ -357,19 +357,19 @@
                     class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3">
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
-                            <a href="project-details.html">
+                            <a href="project-details.php">
                                 <img src="assets/images/portfolio/karantelcom.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
                     <div class="portfolio-card-content-wrap">
                         <div class="content-left">
-                            <h3 class="portfolio-card-title"><a href="project-details.html">Karan Telcom</a>
+                            <h3 class="portfolio-card-title"><a href="project-details.php">Karan Telecom</a>
                             </h3>
                         </div>
                         <div class="tmp-button-here">
                             <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
-                                href="project-details.html">
+                                href="project-details.php">
                                 <span class="icon-reverse-wrapper">
                                     <span class="btn-text">View Details</span>
                                     <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
@@ -385,19 +385,19 @@
                     class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2">
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
-                            <a href="project-details.html">
+                            <a href="project-details.php">
                                 <img src="assets/images/portfolio/technofra.png" alt="Blog Thumbnail">
                             </a>
                         </div>
                     </div>
                     <div class="portfolio-card-content-wrap">
                         <div class="content-left">
-                            <h3 class="portfolio-card-title"><a href="project-details.html">Technofra</a>
+                            <h3 class="portfolio-card-title"><a href="project-details.php">Technofra</a>
                             </h3>
                         </div>
                         <div class="tmp-button-here">
                             <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
-                                href="project-details.html">
+                                href="project-details.php">
                                 <span class="icon-reverse-wrapper">
                                     <span class="btn-text">View Details</span>
                                     <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
@@ -414,8 +414,8 @@
                     class="latest-portfolio-card-style-two tmponhover tmp-scroll-trigger tmp-fade-in animation-order-4">
                     <div class="portfoli-card-img">
                         <div class="img-box v2">
-                            <a href="project-details.html">
-                                <video width="100%" height="100%" controls>
+                            <a href="project-details.php">
+                                <video width="100%" height="100%" autoplay muted loop playsinline>
                                     <source src="assets/images/video/showreels.mp4" type="video/mp4">
                                 </video>
                             </a>
@@ -423,12 +423,12 @@
                     </div>
                     <div class="portfolio-card-content-wrap">
                         <div class="content-left">
-                            <h3 class="portfolio-card-title"><a href="project-details.html">Concept Co</a>
+                            <h3 class="portfolio-card-title"><a href="project-details.php">Concept Co</a>
                             </h3>
                         </div>
                         <div class="tmp-button-here">
                             <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
-                                href="project-details.html">
+                                href="project-details.php">
                                 <span class="icon-reverse-wrapper">
                                     <span class="btn-text">View Design</span>
                                     <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
@@ -572,7 +572,7 @@
                                 <span class="ft-icon"><i class="fa-solid fa-phone"></i></span>
                                 <div class="ft-link-wrap">
                                     <h4 class="link-title">Contact:</h4>
-                                    <a href="tel:+918928339535">+91 8928339535</a>
+                                    <a href="tel:+918928339535">+91 8928 33 9535</a>
                                 </div>
                             </li>
                         </ul>

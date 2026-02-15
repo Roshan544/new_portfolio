@@ -223,7 +223,7 @@
                                 <span class="ft-icon"><i class="fa-solid fa-phone"></i></span>
                                 <div class="ft-link-wrap">
                                     <h4 class="link-title">Contact:</h4>
-                                    <a href="tel:+918928339535">+91 8928339535</a>
+                                    <a href="tel:+918928339535">+91 8928 33 9535</a>
                                 </div>
                             </li>
                         </ul>

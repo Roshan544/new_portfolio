@@ -11685,7 +11685,7 @@ header.header-full-width.header--sticky.sticky {
   border-radius: 0;
 }
 .tmp-sidebar-area .inner .content-wrapper {
-  padding: 30px;
+  padding: 0px 30px;
 }
 .tmp-sidebar-area .inner .content-wrapper .title {
   color: var(--color-heading);
@@ -15707,7 +15707,7 @@ Section Head
 }
 @media (min-width: 1400px) {
   .img-box.v2 {
-    height: 447px;
+    height: 315px;
   }
 }
 .img-box .img-primary {
@@ -22991,15 +22991,27 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
 .ready-chatting-option {
   max-width: max-content;
 }
+.ready-chatting-option1 {
+  max-width: max-content;
+}
 .ready-chatting-option.chat-visible label {
+  bottom: 90px !important;
+}
+.ready-chatting-option1.chat-visible label {
   bottom: 90px !important;
 }
 @media only screen and (max-width: 575px) {
   .ready-chatting-option.chat-visible label {
     bottom: 70px !important;
   }
+  .ready-chatting-option1.chat-visible label {
+    bottom: 70px !important;
+  }
 }
 .ready-chatting-option #click {
+  display: none;
+}
+.ready-chatting-option1 #click {
   display: none;
 }
 .ready-chatting-option label {
@@ -23022,8 +23034,32 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
   transition: 0.3s;
   z-index: 50;
 }
+.ready-chatting-option1 label {
+  bottom: 20px;
+  height: 55px;
+  width: 55px;
+  background: var(--color-primary);
+  text-align: center;
+  line-height: 55px;
+  border-radius: 50px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed !important;
+  left: 20px;
+  z-index: 1019;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  z-index: 50;
+}
 @media only screen and (max-width: 575px) {
   .ready-chatting-option label {
+    height: 40px;
+    width: 40px;
+  }
+  .ready-chatting-option1 label {
     height: 40px;
     width: 40px;
   }
@@ -23031,7 +23067,13 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
 .ready-chatting-option label::before {
   display: none;
 }
+.ready-chatting-option1 label::before {
+  display: none;
+}
 .ready-chatting-option label::after {
+  display: none;
+}
+.ready-chatting-option1 label::after {
   display: none;
 }
 .ready-chatting-option label i {
@@ -23043,7 +23085,20 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
   font-size: 22px;
   color: #fff;
 }
+.ready-chatting-option1 label i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease;
+  font-size: 18px;
+  color: #fff;
+}
 .ready-chatting-option label i.fas {
+  opacity: 0;
+  pointer-events: none;
+}
+.ready-chatting-option1 label i.fas {
   opacity: 0;
   pointer-events: none;
 }
@@ -23052,7 +23107,17 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
   pointer-events: auto;
   transform: translate(-50%, -50%) rotate(180deg);
 }
+.ready-chatting-option1 #click:checked ~ label i.fas {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) rotate(180deg);
+}
 .ready-chatting-option #click:checked ~ label i.fab {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+.ready-chatting-option1 #click:checked ~ label i.fab {
   opacity: 0;
   pointer-events: none;
   transform: translate(-50%, -50%) rotate(180deg);
@@ -23070,14 +23135,35 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
   pointer-events: none;
   transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+.ready-chatting-option1 .wrapper {
+  position: fixed;
+  right: 90px;
+  bottom: 30px;
+  max-width: 400px;
+  background: var(--color-gray-2);
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  z-index: 1100;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 @media only screen and (max-width: 575px) {
   .ready-chatting-option .wrapper {
+    max-width: 280px;
+    right: 65px;
+  }
+  .ready-chatting-option1 .wrapper {
     max-width: 280px;
     right: 65px;
   }
 }
 @media only screen and (max-width: 479px) {
   .ready-chatting-option .wrapper {
+    right: 15px;
+    bottom: 90px;
+  }
+  .ready-chatting-option1 .wrapper {
     right: 15px;
     bottom: 90px;
   }
@@ -23088,8 +23174,17 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
   pointer-events: auto;
   box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.07);
 }
+.ready-chatting-option1 #click:checked ~ .wrapper {
+  opacity: 1;
+  bottom: 85px;
+  pointer-events: auto;
+  box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.07);
+}
 @media only screen and (max-width: 479px) {
   .ready-chatting-option #click:checked ~ .wrapper {
+    bottom: 112px;
+  }
+  .ready-chatting-option1 #click:checked ~ .wrapper {
     bottom: 112px;
   }
 }
@@ -23102,7 +23197,20 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
   font-size: 20px;
   background: var(--color-primary);
 }
+.ready-chatting-option1 .wrapper .head-text {
+  line-height: 60px;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 20px;
+  background: var(--color-primary);
+}
 .ready-chatting-option .wrapper .chat-box {
+  padding: 20px;
+  width: 100%;
+}
+.ready-chatting-option1 .wrapper .chat-box {
   padding: 20px;
   width: 100%;
 }
@@ -23110,8 +23218,18 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
   .ready-chatting-option .wrapper .chat-box {
     padding: 10px;
   }
+  .ready-chatting-option1 .wrapper .chat-box {
+    padding: 10px;
+  }
 }
 .ready-chatting-option .chat-box .desc-text {
+  color: var(--color-body);
+  text-align: center;
+  line-height: 25px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.ready-chatting-option1 .chat-box .desc-text {
   color: var(--color-body);
   text-align: center;
   line-height: 25px;
@@ -23124,12 +23242,26 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
   border-radius: 5px;
   border: 2px solid var(--color-border);
 }
+.ready-chatting-option1 .chat-box form {
+  padding: 10px 15px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 2px solid var(--color-border);
+}
 .ready-chatting-option .chat-box form .field {
   height: 50px;
   width: 100%;
   margin-top: 20px;
 }
+.ready-chatting-option1 .chat-box form .field {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
 .ready-chatting-option .chat-box form .field:last-child {
+  margin-bottom: 15px;
+}
+.ready-chatting-option1 .chat-box form .field:last-child {
   margin-bottom: 15px;
 }
 .ready-chatting-option form .field input,
@@ -23146,8 +23278,26 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
   color: var(--color-body);
   font-family: var(--font-secondary);
 }
+.ready-chatting-option1 form .field input,
+.ready-chatting-option1 form .field button,
+.ready-chatting-option1 form .textarea textarea {
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  border: 2px solid var(--color-border);
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  color: var(--color-body);
+  font-family: var(--font-secondary);
+}
 .ready-chatting-option form .field input:focus,
 .ready-chatting-option form .textarea textarea:focus {
+  border-color: var(--color-primary);
+}
+.ready-chatting-option1 form .field input:focus,
+.ready-chatting-option1 form .textarea textarea:focus {
   border-color: var(--color-primary);
 }
 .ready-chatting-option form .field input::placeholder,
@@ -23155,15 +23305,35 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
   color: var(--color-body);
   transition: all 0.3s ease;
 }
+.ready-chatting-option1 form .field input::placeholder,
+.ready-chatting-option1 form .textarea textarea::placeholder {
+  color: var(--color-body);
+  transition: all 0.3s ease;
+}
 .ready-chatting-option form .field input:focus::placeholder,
 .ready-chatting-option form .textarea textarea:focus::placeholder {
+  color: var(--color-body);
+}
+.ready-chatting-option1 form .field input:focus::placeholder,
+.ready-chatting-option1 form .textarea textarea:focus::placeholder {
   color: var(--color-body);
 }
 .ready-chatting-option .chat-box form .textarea {
   height: 70px;
   width: 100%;
 }
+.ready-chatting-option1 .chat-box form .textarea {
+  height: 70px;
+  width: 100%;
+}
 .ready-chatting-option .chat-box form .textarea textarea {
+  height: 100%;
+  border-radius: 5px;
+  resize: none;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+.ready-chatting-option1 .chat-box form .textarea textarea {
   height: 100%;
   border-radius: 5px;
   resize: none;
@@ -23180,7 +23350,20 @@ section.svg-container svg.radial-progress:nth-last-of-type(0) {
   background: var(--color-primary);
   transition: all 0.3s ease;
 }
+.ready-chatting-option1 .chat-box form .field button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  background: var(--color-primary);
+  transition: all 0.3s ease;
+}
 .ready-chatting-option .chat-box form .field button:active {
+  transform: scale(0.97);
+}
+.ready-chatting-option1 .chat-box form .field button:active {
   transform: scale(0.97);
 }
 
