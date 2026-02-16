@@ -1,4 +1,4 @@
-<?php include 'layout/header.php'; ?>
+<?php include 'layout/header.html'; ?>
 
 
 <!-- Breadcrumb Area Start -->
@@ -27,7 +27,7 @@
             <div class="col-lg-8">
                 <div class="blog-details-left-area">
                     <div class="thumbnail-top">
-                        <img src="<?php echo $base_path; ?>assets/images/blog/details/01.png" alt="Corporate_business">
+                        <img src="assets/images/blog/details/01.png" alt="Corporate_business">
                     </div>
                     <div class="blog-details-discription">
                         <div class="blog-classic-tag">
@@ -101,7 +101,7 @@
                                         </p>
                                     </div>
                                     <div class="card-right-content">
-                                        <img src="<?php echo $base_path; ?>assets/images/blog/blog-details-swiper-img.jpg" alt="blog-swip-img">
+                                        <img src="assets/images/blog/blog-details-swiper-img.jpg" alt="blog-swip-img">
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@
                             <h3 class="title">Comments (3)</h3>
                             <div class="single-comment-audience">
                                 <div class="author-image tmponhover">
-                                    <img src="<?php echo $base_path; ?>assets/images/blog/comments-img-1.png" alt="Corporate_business">
+                                    <img src="assets/images/blog/comments-img-1.png" alt="Corporate_business">
                                 </div>
                                 <div class="right-area-commnet">
                                     <div class="top-area-comment">
@@ -180,7 +180,7 @@
                             </div>
                             <div class="single-comment-audience pl--100">
                                 <div class="author-image tmponhover">
-                                    <img src="<?php echo $base_path; ?>assets/images/blog/comments-img-2.png" alt="Corporate_business">
+                                    <img src="assets/images/blog/comments-img-2.png" alt="Corporate_business">
                                 </div>
                                 <div class="right-area-commnet">
                                     <div class="top-area-comment">
@@ -203,7 +203,7 @@
                             </div>
                             <div class="single-comment-audience">
                                 <div class="author-image tmponhover">
-                                    <img src="<?php echo $base_path; ?>assets/images/blog/comments-img-2.png" alt="Corporate_business">
+                                    <img src="assets/images/blog/comments-img-2.png" alt="Corporate_business">
                                 </div>
                                 <div class="right-area-commnet">
                                     <div class="top-area-comment">
@@ -319,7 +319,7 @@
                         <div class="body">
                             <div class="single-post-card tmp-hover-link">
                                 <div class="single-post-card-img">
-                                    <img src="<?php echo $base_path; ?>assets/images/blog/single-post-card-img-1.png" alt="">
+                                    <img src="assets/images/blog/single-post-card-img-1.png" alt="">
                                 </div>
                                 <div class="single-post-right">
                                     <div class="single-post-top">
@@ -333,7 +333,7 @@
                             </div>
                             <div class="single-post-card tmp-hover-link">
                                 <div class="single-post-card-img">
-                                    <img src="<?php echo $base_path; ?>assets/images/blog/single-post-card-img-2.png" alt="">
+                                    <img src="assets/images/blog/single-post-card-img-2.png" alt="">
                                 </div>
                                 <div class="single-post-right">
                                     <div class="single-post-top">
@@ -347,7 +347,7 @@
                             </div>
                             <div class="single-post-card tmp-hover-link">
                                 <div class="single-post-card-img">
-                                    <img src="<?php echo $base_path; ?>assets/images/blog/single-post-card-img-3.png" alt="">
+                                    <img src="assets/images/blog/single-post-card-img-3.png" alt="">
                                 </div>
                                 <div class="single-post-right">
                                     <div class="single-post-top">
@@ -369,7 +369,7 @@
                             <div class="about-me-details">
                                 <div class="about-me-details-head">
                                     <div class="about-me-img">
-                                        <img src="<?php echo $base_path; ?>assets/images/blog/about-me-user-img.png" alt="about-me-user-img">
+                                        <img src="assets/images/blog/about-me-user-img.png" alt="about-me-user-img">
                                     </div>
                                     <div class="about-me-right-content">
                                         <h3 class="title">Fatima Afrafy</h3>
@@ -413,4 +413,4 @@
 </div>
 
 
-<?php include 'layout/footer.php'; ?>
+<?php include 'layout/footer.html'; ?>

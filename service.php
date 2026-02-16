@@ -1,4 +1,4 @@
-<?php include 'layout/header.php'; ?>
+<?php include 'layout/header.html'; ?>
 
 <!-- Breadcrumb Area Start -->
 <div class="breadcrumb-area breadcrumb-bg">
@@ -229,4 +229,4 @@
 </section>
 <!-- Tpm My Price plan End -->
 
-<?php include 'layout/footer.php'; ?>
+<?php include 'layout/footer.html'; ?>

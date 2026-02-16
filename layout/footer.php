@@ -1,6 +1,4 @@
-<?php 
-$base_path = '/Portfolio/';
-?>
+
 <div class="copyright-area-one">
     <div class="container">
         <div class="row">
@@ -12,7 +10,7 @@ $base_path = '/Portfolio/';
                         </script> | All Rights Reserved
                     </p>
                     <p class="copy-right-para tmp-link-animation"> Created with <img title='Heart' style="width: 18px;"
-                            src="<?php echo $base_path; ?>assets/images/language/heart.svg" alt="heart" /> by Roshan Yadav
+                            src="assets/images/language/heart.svg" alt="heart" /> by Roshan Yadav
                     </p>
                 </div>
             </div>
@@ -70,32 +68,32 @@ $base_path = '/Portfolio/';
     </div>
 </div>
 
-<script src="<?php echo $base_path; ?>assets/js/vendor/jquery.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/vendor/jquery-ui.min.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/vendor/waypoints.min.js"></script>
+<script src="assets/js/vendor/jquery.js"></script>
+<script src="assets/js/vendor/jquery-ui.min.js"></script>
+<script src="assets/js/vendor/waypoints.min.js"></script>
 
-<script src="<?php echo $base_path; ?>assets/js/plugins/odometer.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/vendor/appear.js"></script>
+<script src="assets/js/plugins/odometer.js"></script>
+<script src="assets/js/vendor/appear.js"></script>
 
 
-<script src="<?php echo $base_path; ?>assets/js/vendor/jquery-one-page-nav.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/plugins/swiper.js"></script>
+<script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+<script src="assets/js/plugins/swiper.js"></script>
 
-<script src="<?php echo $base_path; ?>assets/js/plugins/gsap.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/plugins/splittext.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/plugins/scrolltigger.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/plugins/scrolltoplugins.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/plugins/smoothscroll.js"></script>
+<script src="assets/js/plugins/gsap.js"></script>
+<script src="assets/js/plugins/splittext.js"></script>
+<script src="assets/js/plugins/scrolltigger.js"></script>
+<script src="assets/js/plugins/scrolltoplugins.js"></script>
+<script src="assets/js/plugins/smoothscroll.js"></script>
 <!-- bootstrap Js-->
-<script src="<?php echo $base_path; ?>assets/js/vendor/bootstrap.min.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/vendor/waw.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/plugins/isotop.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/plugins/animation.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/plugins/contact.form.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/vendor/backtop.js"></script>
-<script src="<?php echo $base_path; ?>assets/js/plugins/text-type.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="assets/js/vendor/waw.js"></script>
+<script src="assets/js/plugins/isotop.js"></script>
+<script src="assets/js/plugins/animation.js"></script>
+<script src="assets/js/plugins/contact.form.js"></script>
+<script src="assets/js/vendor/backtop.js"></script>
+<script src="assets/js/plugins/text-type.js"></script>
 <!-- custom Js -->
-<script src="<?php echo $base_path; ?>assets/js/main.js"></script>
+<script src="assets/js/main.js"></script>
 
 <script>
     window.addEventListener('load', function () {

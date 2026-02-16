@@ -1,4 +1,4 @@
-<?php include '../layout/header.php'; ?>
+<?php include '../layout/header.html'; ?>
 <?php $base_path = '/Portfolio/'; ?>
 
 <style>
@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="project-details-thumnail-wrap">
-                    <img src="<?php echo $base_path; ?>assets/images/projects-details/thumnail-img.png" alt="thumbnail">
+                    <img src="assets/images/projects-details/thumnail-img.png" alt="thumbnail">
                 </div>
             </div>
             <div class="col-lg-8">
@@ -73,19 +73,19 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="project-details-img">
-                                        <img src="<?php echo $base_path; ?>assets/images/projects-details/project-detials-swiper-img-1.jpg"
+                                        <img src="assets/images/projects-details/project-detials-swiper-img-1.jpg"
                                             alt="swiper-img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="project-details-img">
-                                        <img src="<?php echo $base_path; ?>assets/images/projects-details/project-detials-swiper-img-2.png"
+                                        <img src="assets/images/projects-details/project-detials-swiper-img-2.png"
                                             alt="swiper-img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="project-details-img">
-                                        <img src="<?php echo $base_path; ?>assets/images/projects-details/project-detials-swiper-img-1.jpg"
+                                        <img src="assets/images/projects-details/project-detials-swiper-img-1.jpg"
                                             alt="swiper-img">
                                     </div>
                                 </div>
@@ -109,7 +109,7 @@
                                         <div class="contact-inner">
                                             <div class="contact-form">
                                                 <form class="tmp-dynamic-form" id="contact-form" method="POST"
-                                                    action="send.php">
+                                                    action="send.html">
                                                     <div class="contact-form-wrapper row">
                                                         <div class="col-lg-6">
                                                             <div class="form-group">
@@ -192,4 +192,4 @@
     </div>
 </div>
 
-<?php include '../layout/footer.php'; ?>
+<?php include '../layout/footer.html'; ?>
