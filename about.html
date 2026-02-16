@@ -24,6 +24,17 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "tMN2YCX59GVIikU3L",
+        });
+    })();
+    </script>
 </head>
 
 <body> 
@@ -464,7 +475,7 @@
                         <div class="contact-form">
                             <div id="form-messages" class="error"></div>
                             <form class="tmp-dynamic-form" id="contact-form" method="POST"
-                                action="javascript:void(0)">
+                                action="" data-netlify="true" name="contact">
                                 <div class="contact-form-wrapper row">
                                     <div class="col-lg-6">
                                         <div class="form-group">
@@ -623,6 +634,10 @@
 <script src="assets/js/plugins/text-type.js"></script>
 <!-- custom Js -->
 <script src="assets/js/main.js"></script>
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>emailjs.init("YOUR_PUBLIC_KEY");</script>
+    <script src="assets/js/sendmail.js"></script>
 
 <script>
     window.addEventListener('load', function () {

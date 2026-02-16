@@ -812,7 +812,7 @@
                             <div class="contact-form">
                                 <div id="form-messages" class="error"></div>
                                 <form class="tmp-dynamic-form" id="contact-form" method="POST"
-                                    action="javascript:void(0)">
+                                    action="" data-netlify="true" name="contact">
                                     <div class="contact-form-wrapper row">
                                         <div class="col-lg-6">
                                             <div class="form-group">
@@ -823,8 +823,8 @@
 
                                         <div class="col-lg-6">
                                             <div class="form-group">
-                                                <input class="input-field" id="contact-phone" placeholder="Phone Number"
-                                                    type="number" required>
+                                                <input class="input-field" id="contact-phone" name="phone" placeholder="Phone Number"
+                                                    type="text" required>
                                             </div>
                                         </div>
 
@@ -971,7 +971,15 @@
     <script src="assets/js/plugins/contact.form.js"></script>
     <script src="assets/js/vendor/backtop.js"></script>
     <script src="assets/js/plugins/text-type.js"></script>
+    <!-- EmailJS for contact form -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("tMN2YCX59GVIikU3L");
+        })();
+    </script>
     <!-- custom Js -->
+    <script src="assets/js/sendmail.js"></script>
     <script src="assets/js/main.js"></script>
 
     <script>
