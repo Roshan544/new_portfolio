@@ -73,12 +73,12 @@ $base_path = '/Portfolio/';
                         <div class="tmp-header-right">
                             <div class="social-share-wrapper d-none d-md-block">
                                 <div class="social-link">
-                                    <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1"><i
+                                    <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1" target="_blank"><i
                                             class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="https://www.instagram.com/roshan._.0707_"><i
+                                    <a href="https://www.instagram.com/roshan._.0707_" target="_blank"><i
                                             class="fa-brands fa-instagram"></i></a>
-                                    <a href="https://github.com/Roshan544"><i class="fa-brands fa-github"></i></a>
-                                    <a href="https://www.facebook.com/profile.html?id=100014189131444"><i
+                                    <a href="https://github.com/Roshan544" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://www.facebook.com/people/Roshan-Yadav/pfbid027jNyDpiUCc83WrKBPwut3pM7qVB8YNc2xojwLyEsvJt9NYKxu4f9secVmGucWQ2Fl/" target="_blank"><i
                                             class="fa-brands fa-facebook-f"></i></a>
                                 </div>
                             </div>
@@ -160,12 +160,12 @@ $base_path = '/Portfolio/';
                     <div class="social-wrapper mt--20">
                         <span class="subtitle">find with me</span>
                         <div class="social-link">
-                            <a href="https://www.instagram.com/roshan._.0707_"><i
+                            <a href="https://www.instagram.com/roshan._.0707_" target="_blank"><i
                                     class="fa-brands fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1"><i
+                            <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1" target="_blank"><i
                                     class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://github.com/Roshan544"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://www.facebook.com/profile.html?id=100014189131444"><i
+                            <a href="https://github.com/Roshan544" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.facebook.com/people/Roshan-Yadav/pfbid027jNyDpiUCc83WrKBPwut3pM7qVB8YNc2xojwLyEsvJt9NYKxu4f9secVmGucWQ2Fl/" target="_blank"><i
                                     class="fa-brands fa-facebook-f"></i></a>
                         </div>
                     </div>
@@ -225,11 +225,11 @@ $base_path = '/Portfolio/';
                 <div class="social-wrapper mt--40">
                     <span class="subtitle">find with me</span>
                     <div class="social-link">
-                        <a href="https://www.instagram.com/roshan._.0707_"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1"><i
+                        <a href="https://www.instagram.com/roshan._.0707_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/roshan-yadav-81b83b2b1" target="_blank"><i
                                 class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://github.com/Roshan544"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.facebook.com/profile.html?id=100014189131444"><i
+                        <a href="https://github.com/Roshan544" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/people/Roshan-Yadav/pfbid027jNyDpiUCc83WrKBPwut3pM7qVB8YNc2xojwLyEsvJt9NYKxu4f9secVmGucWQ2Fl/" target="_blank"><i
                                 class="fa-brands fa-facebook-f"></i></a>
                     </div>
                 </div>
