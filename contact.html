@@ -26,16 +26,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-    (function(){
-        emailjs.init({
-            publicKey: "tMN2YCX59GVIikU3L",
-        });
-    })();
-    </script>
+
 </head>
 
 <body> 
@@ -243,6 +234,90 @@
         padding-top: 120px;
         padding-bottom: 0px;
     }
+    
+    /* Thank You Popup Styles */
+    #thank-you-popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .popup-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+    }
+    
+    .popup-content {
+        position: relative;
+        background: #fff;
+        padding: 40px 50px;
+        border-radius: 15px;
+        text-align: center;
+        max-width: 400px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        animation: popupFadeIn 0.3s ease;
+    }
+    
+    @keyframes popupFadeIn {
+        from {
+            opacity: 0;
+            transform: scale(0.9);
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    
+    .popup-content .checkmark {
+        width: 70px;
+        height: 70px;
+        background: #28a745;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 20px;
+        font-size: 40px;
+        color: white;
+    }
+    
+    .popup-content h2 {
+        color: #333;
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+    
+    .popup-content p {
+        color: #666;
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+    
+    .popup-content button {
+        background: #28a745;
+        color: white;
+        border: none;
+        padding: 12px 35px;
+        border-radius: 25px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    
+    .popup-content button:hover {
+        background: #218838;
+    }
 </style>
 
 <!-- Breadcrumb Area Start -->
@@ -346,7 +421,6 @@
                                 <span class="title">GET IN TOUCH</span>
                             </div>
                             <div class="contact-form">
-                                <div id="form-messages" class="error"></div>
                                 <form class="tmp-dynamic-form" id="contact-form" method="POST"
                                     action="" name="contact">
                                     <div class="contact-form-wrapper row">
@@ -359,7 +433,7 @@
 
                                         <div class="col-lg-6">
                                             <div class="form-group">
-                                                <input class="input-field" id="contact-phone" placeholder="Phone Number"
+                                                <input class="input-field" name="phone" id="contact-phone" placeholder="Phone Number"
                                                     type="text" required>
                                             </div>
                                         </div>
@@ -507,10 +581,6 @@
 <script src="assets/js/plugins/text-type.js"></script>
 <!-- custom Js -->
 <script src="assets/js/main.js"></script>
-    <!-- EmailJS -->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script>emailjs.init("tMN2YCX59GVIikU3L");</script>
-    <script src="assets/js/sendmail.js"></script>
 
 <script>
     window.addEventListener('load', function () {
@@ -583,6 +653,12 @@
       }
     });
   </script>
+
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>emailjs.init("MKJwxijZpRZWMYqM0");</script>
+    <script src="assets/js/sendmail.js"></script>
 
 
 </body>

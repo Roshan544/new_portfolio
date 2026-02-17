@@ -127,3 +127,32 @@ background: radial-gradient(circle,rgba(37, 21, 21, 1) 0%, rgba(37, 21, 21, 1) 5
 .latest-portfolio-card-style-two:hover .img-box.v2 img {
     transform: translateY(-70%); /* Scrolls the image up to show bottom portion */
 }
+
+/* Loading Spinner for Submit Button */
+.loading-spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Button loading state */
+button.loading {
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+button.loading .btn-icon {
+    display: none;
+}
