@@ -16,6 +16,11 @@
     var form = $('#contact-form');
     var formMessages = $('#form-messages');
 
+    // Skip if form has sendMail function (custom handler)
+    if (typeof sendMail === 'function') {
+        return; // Let our custom sendMail function handle it
+    }
+
     $(form).submit(function (e) {
         e.preventDefault();
 
@@ -30,7 +35,7 @@
         .done(function (response) {
             $(formMessages).removeClass('error').addClass('success').text(response);
 
-            // ইনপুট ফিল্ড ক্লিয়ার করা
+            // ইনপুট ফিল্ড ক্লিয়ার করা
             $('#contact-name, #contact-email, #subject, #contact-message, #contact-phone').val('');
         })
         .fail(function (data) {

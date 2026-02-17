@@ -1,6 +1,13 @@
+// EmailJS Configuration - Get these from https://www.emailjs.com/
+// Public Key (already set)
+const EMAILJS_PUBLIC_KEY = "tMN2YCX59GVIikU3L";
+// Replace these with your EmailJS Service ID and Template ID
+const EMAILJS_SERVICE_ID = "service_t9tjzhp";    
+const EMAILJS_TEMPLATE_ID = "template_2xmzswv";
+
 // Function to show loading animation on button
 function showLoading(button) {
-    button.innerHTML = '<span class="icon-reverse-wrapper"><span class="btn-text"><span class="spinner"></span> Sending...</span></span>';
+    button.innerHTML = '<span class="icon-reverse-wrapper"><span class="btn-text">Sending...</span></span>';
     button.disabled = true;
     button.style.opacity = '0.7';
     button.style.cursor = 'not-allowed';
@@ -11,56 +18,22 @@ function showThankYouPopup() {
     // Create popup overlay
     const overlay = document.createElement('div');
     overlay.id = 'thank-you-overlay';
-    overlay.style.cssText = `
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.7);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 99999;
-        animation: fadeIn 0.3s ease;
-    `;
+    overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);display:flex;justify-content:center;align-items:center;z-index:99999;';
     
     // Create popup box
     const popup = document.createElement('div');
-    popup.id = 'thank-you-popup';
-    popup.style.cssText = `
-        background: white;
-        padding: 40px 50px;
-        border-radius: 15px;
-        text-align: center;
-        box-shadow: 0 10px 40px rgba(0,0,0,0.3);
-        animation: slideUp 0.4s ease;
-        max-width: 400px;
-    `;
+    popup.style.cssText = 'background:white;padding:40px 50px;border-radius:15px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,0.3);max-width:400px;';
     
-    // Success icon
     popup.innerHTML = `
-        <div style="width: 80px; height: 80px; background: #28a745; border-radius: 50%; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center;">
-            <i class="fa-solid fa-check" style="color: white; font-size: 40px;"></i>
+        <div style="width:80px;height:80px;background:#28a745;border-radius:50%;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3">
+                <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
         </div>
-        <h2 style="color: #333; margin-bottom: 15px; font-size: 24px;">Thank You!</h2>
-        <p style="color: #666; font-size: 16px; margin-bottom: 25px;">Your message has been submitted successfully. I will get back to you soon!</p>
-        <button onclick="closePopup()" style="background: #667eea; color: white; border: none; padding: 12px 35px; border-radius: 25px; font-size: 16px; cursor: pointer; transition: all 0.3s;">OK</button>
+        <h2 style="color:#333;margin-bottom:15px;font-size:24px;">Thank You!</h2>
+        <p style="color:#666;font-size:16px;margin-bottom:25px;">Your message has been sent successfully. I will get back to you soon!</p>
+        <button onclick="closePopup()" style="background:#667eea;color:white;border:none;padding:12px 35px;border-radius:25px;font-size:16px;cursor:pointer;">OK</button>
     `;
-    
-    // Add animation keyframes
-    const style = document.createElement('style');
-    style.textContent = `
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        @keyframes slideUp {
-            from { transform: translateY(50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-    `;
-    document.head.appendChild(style);
     
     overlay.appendChild(popup);
     document.body.appendChild(overlay);
@@ -73,14 +46,11 @@ function showThankYouPopup() {
 function closePopup() {
     const overlay = document.getElementById('thank-you-overlay');
     if (overlay) {
-        overlay.style.animation = 'fadeIn 0.3s ease reverse';
-        setTimeout(() => {
-            overlay.remove();
-        }, 300);
+        overlay.remove();
     }
 }
 
-// Function to send email
+// Main sendMail function
 function sendMail() {
     const form = document.getElementById('contact-form');
     const formMessages = document.getElementById('form-messages');
@@ -95,56 +65,51 @@ function sendMail() {
     
     // Validate
     if (!name || !email || !message) {
-        if (formMessages) {
-            formMessages.className = 'error';
-            formMessages.textContent = 'Please fill in all required fields.';
-        }
+        alert('Please fill in all required fields: Name, Email, and Message');
         return false;
     }
     
     // Show loading animation
     showLoading(submitBtn);
     
-    // Check if EmailJS is configured - if not, use mailto fallback
-    const emailjsPublicKey = "YOUR_PUBLIC_KEY";
+    // Check if EmailJS is configured
+    const isEmailJSConfigured = EMAILJS_SERVICE_ID !== "service_t9tjzhp" && EMAILJS_TEMPLATE_ID !== "template_2xmzswv";
     
-    if (emailjsPublicKey === "YOUR_PUBLIC_KEY") {
-        // Use mailto fallback
-        const mailtoLink = `mailto:roshany544@gmail.com?subject=Portfolio Contact - ${encodeURIComponent(subject || 'New Message')}&body=Name: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0APhone: ${encodeURIComponent(phone)}%0A%0AMessage:%0A${encodeURIComponent(message)}`;
+    if (isEmailJSConfigured) {
+        // Use EmailJS
+        const templateParams = {
+            from_name: name,
+            from_email: email,
+            phone: phone || 'Not provided',
+            subject: subject || 'No subject',
+            message: message,
+            to_email: 'roshany544@gmail.com'
+        };
         
-        // Open email client
-        window.location.href = mailtoLink;
-        
-        // Reset button
-        submitBtn.innerHTML = '<span class="icon-reverse-wrapper"><span class="btn-text">Submit</span><span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span><span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span></span>';
-        submitBtn.disabled = false;
-        submitBtn.style.opacity = '1';
-        submitBtn.style.cursor = 'pointer';
-        
-        // Show thank you popup
-        setTimeout(showThankYouPopup, 500);
-        
-        return true;
-    }
-    
-    // Prepare template parameters
-    const templateParams = {
-        from_name: name,
-        from_email: email,
-        phone: phone || 'Not provided',
-        subject: subject || 'No subject',
-        message: message
-    };
-    
-    // Send using EmailJS
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams, emailjsPublicKey)
-        .then(function(response) {
-            // Reset form
-            if (document.getElementById('contact-name')) document.getElementById('contact-name').value = '';
-            if (document.getElementById('contact-email')) document.getElementById('contact-email').value = '';
-            if (document.getElementById('contact-phone')) document.getElementById('contact-phone').value = '';
-            if (document.getElementById('subject')) document.getElementById('subject').value = '';
-            if (document.getElementById('contact-message')) document.getElementById('contact-message').value = '';
+        emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams, EMAILJS_PUBLIC_KEY)
+            .then(function(response) {
+                console.log('SUCCESS!', response);
+                submitBtn.innerHTML = '<span class="icon-reverse-wrapper"><span class="btn-text">Submit</span><span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span><span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span></span>';
+                submitBtn.disabled = false;
+                submitBtn.style.opacity = '1';
+                submitBtn.style.cursor = 'pointer';
+                showThankYouPopup();
+            })
+            .catch(function(error) {
+                console.log('FAILED...', error);
+                submitBtn.innerHTML = '<span class="icon-reverse-wrapper"><span class="btn-text">Submit</span><span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span><span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span></span>';
+                submitBtn.disabled = false;
+                submitBtn.style.opacity = '1';
+                submitBtn.style.cursor = 'pointer';
+                alert('Error sending email. Please try again.');
+            });
+    } else {
+        // Use mailto fallback - Open email client
+        setTimeout(function() {
+            const mailtoLink = 'mailto:roshany544@gmail.com?subject=' + encodeURIComponent('Portfolio Contact - ' + (subject || 'New Message')) + 
+                '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nPhone: ' + phone + '\n\nMessage:\n' + message);
+            
+            window.location.href = mailtoLink;
             
             // Reset button
             submitBtn.innerHTML = '<span class="icon-reverse-wrapper"><span class="btn-text">Submit</span><span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span><span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span></span>';
@@ -154,18 +119,8 @@ function sendMail() {
             
             // Show thank you popup
             showThankYouPopup();
-        }, function(error) {
-            // Reset button
-            submitBtn.innerHTML = '<span class="icon-reverse-wrapper"><span class="btn-text">Submit</span><span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span><span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span></span>';
-            submitBtn.disabled = false;
-            submitBtn.style.opacity = '1';
-            submitBtn.style.cursor = 'pointer';
-            
-            if (formMessages) {
-                formMessages.className = 'error';
-                formMessages.textContent = 'Sorry, there was an error. Please try again.';
-            }
-        });
+        }, 500);
+    }
     
     return false;
 }
