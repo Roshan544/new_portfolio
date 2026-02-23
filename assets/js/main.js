@@ -21,22 +21,6 @@
 
 ----*/
 
-function sendMail(){
-  let params = {
-    name: document.getElementById("name").value,
-    phone: document.getElementById("phone").value,
-    email: document.getElementById("email").value,
-    subject: document.getElementById("subject").value,
-    message: document.getElementById("message").value,
-  }
-
-  emailjs.send("service_k7kwnfm", "template_c5qqdfl", params).then(function(res){
-    alert("Email sent successfully!");
-  }).catch(function(error){
-    alert("Failed to send email. Please try again.");
-  });
-}
-
 (function ($) {
   "use strict";
 
